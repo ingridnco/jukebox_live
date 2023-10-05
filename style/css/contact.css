@@ -10,7 +10,7 @@ p {
   margin-bottom: 30px;
 }
 
-a:hover {
+.main a:hover {
   opacity: 0.6;
 }
 
