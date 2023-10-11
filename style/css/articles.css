@@ -12,6 +12,11 @@
   margin: 30px;
 }
 
+@media screen and (max-width: 996px) {
+  .main img {
+    width: 40vw;
+  }
+}
 @media screen and (min-height: 830px) {
   footer {
     top: 336px;
