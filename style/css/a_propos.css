@@ -1,8 +1,23 @@
+.main {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100vw;
+}
 .main h1 {
   margin-bottom: 30px;
+  z-index: 2;
 }
 .main p {
-  margin: 30px;
+  text-align: justify;
+  margin: 30px auto;
+  width: 70vw;
+}
+
+@media screen and (max-width: 996px) {
+  .main {
+    margin-top: 40px;
+    width: 100vw;
+  }
 }
 
 /*# sourceMappingURL=a_propos.css.map */

@@ -1,0 +1,15 @@
+.main {
+  margin-left: auto;
+  margin-right: auto;
+  height: 69vh;
+}
+.main h1 {
+  margin-bottom: 30px;
+  z-index: 2;
+}
+.main p {
+  text-align: justify;
+  margin: 30px;
+}
+
+/*# sourceMappingURL=articles.css.map */
