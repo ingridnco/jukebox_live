@@ -19,5 +19,15 @@
     width: 100vw;
   }
 }
+@media screen and (min-height: 830px) {
+  footer {
+    top: 336px;
+  }
+}
+@media screen and (min-height: 1080px) {
+  footer {
+    top: 538px;
+  }
+}
 
 /*# sourceMappingURL=a_propos.css.map */

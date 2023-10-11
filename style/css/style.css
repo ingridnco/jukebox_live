@@ -240,8 +240,13 @@ span {
 
 .footer {
   position: relative;
-  top: 100px;
   background-color: rgba(94, 153, 217, 0.4823529412);
+}
+
+@media screen and (max-height: 829px) {
+  footer {
+    top: 100px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
