@@ -5,14 +5,13 @@
 }
 .main h1 {
   margin-bottom: 30px;
-  z-index: 2;
+  z-index: 1;
 }
 .main p {
   text-align: justify;
   margin: 30px auto;
   width: 70vw;
 }
-
 
 @media screen and (max-width: 996px) {
   .main {
