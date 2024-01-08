@@ -13,11 +13,6 @@
   width: 70vw;
 }
 
-.footer {
-  position: relative;
-  top: 200px;
-}
-
 @media screen and (max-width: 996px) {
   .main {
     margin-top: 40px;
@@ -25,12 +20,12 @@
   }
 }
 @media screen and (min-height: 830px) {
-  footer {
+  .footer {
     top: 336px;
   }
 }
 @media screen and (min-height: 1080px) {
-  footer {
+  .footer {
     top: 538px;
   }
 }

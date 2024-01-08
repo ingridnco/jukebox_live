@@ -151,7 +151,7 @@
     top: -100px;
   }
   .footer {
-    top: 47px;
+    top: 100px;
   }
 }
 @media screen and (max-width: 545px) {
@@ -296,16 +296,6 @@
   .sidebar__nav li {
     padding: 0 4px;
     font-size: 1.1rem;
-  }
-}
-@media screen and (min-height: 950px) {
-  .footer {
-    top: 320px;
-  }
-}
-@media screen and (min-height: 1065px) {
-  .footer {
-    top: 495px;
   }
 }
 
