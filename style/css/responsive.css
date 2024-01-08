@@ -148,7 +148,7 @@
     top: -100px;
   }
   .footer {
-    top: 188px;
+    top: 25px;
   }
 }
 @media screen and (max-width: 545px) {
@@ -258,7 +258,7 @@
     margin: 0 auto;
   }
   .footer {
-    top: 188px;
+    top: 47px;
   }
 }
 @media screen and (max-width: 440px) {
