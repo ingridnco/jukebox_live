@@ -90,10 +90,6 @@ body {
   margin: 30px auto;
 }
 
-.mobile {
-  display: none;
-}
-
 .intro {
   display: flex;
   width: 62vw;
@@ -121,6 +117,10 @@ body {
 }
 .intro__title {
   padding-bottom: 10px;
+}
+
+.mobile {
+  display: none;
 }
 
 .by_artist {
@@ -249,6 +249,7 @@ span {
 
 .footer {
   position: relative;
+  top: 30px;
   background-color: rgba(94, 153, 217, 0.4823529412);
 }
 
