@@ -13,6 +13,11 @@
   width: 70vw;
 }
 
+.footer {
+  position: relative;
+  top: 200px;
+}
+
 @media screen and (max-width: 996px) {
   .main {
     margin-top: 40px;
