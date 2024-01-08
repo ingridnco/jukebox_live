@@ -298,5 +298,10 @@
     font-size: 1.1rem;
   }
 }
+@media screen and (min-height: 950px) {
+  .footer {
+    top: 320px;
+  }
+}
 
 /*# sourceMappingURL=responsive.css.map */
