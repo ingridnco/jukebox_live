@@ -56,7 +56,7 @@
             <div class="intro__text">
                 <!-- <div class="intro__date">Publié le 02 octobre 2023</div> -->
                 <h2 class="intro__title"> Comment ça marche ?</h2>
-                <p>Vous êtes sûrement arrivé ici grâce au petit QRcode...<br> Bravo, vous êtes bien sur la bonne page !<br> Vous allez pouvoir choisir parmi la liste suivante les chansons que vous souhaitez écouter aujourd'hui.
+                <p>Vous êtes sûrement arrivé ici grâce au lien ou au petit QRcode...<br> Bravo, vous êtes bien sur la bonne page !<br> Vous allez pouvoir choisir les chansons que vous souhaitez écouter aujourd'hui à l'aide du menu à droite. <br>Elles sont classées par artiste quand plusieurs chansons sont disponibles, puis par titre dans l'ordre alphabétique, et enfin vous trouverez les duos. <br>Bonne écoute !
                 </p>
             </div>
         </article>
@@ -65,13 +65,13 @@
         <article class="by_artist">   
             <div id="artist"></div>
 
-            <div class="by_artist__box">
+            <!--<div class="by_artist__box">
                 <div class="by_artist__title"><h3>Céline Dion</h3></div>
                 <div class="by_artist__p">
                 <p>My heart will<br>go on</p>	
                    <p>Pour que tu<br>m'aimes encore</p>
                 </div>
-            </div>
+            </div>-->
 
                 <div class="by_artist__box">
             <div class="by_artist__title twolines__title "><h3>Daniel<br>Balavoine</h3></div>
@@ -118,13 +118,13 @@
             </div>
         </div>
 
-        <div class="by_artist__box">
+        <!--<div class="by_artist__box">
             <div class="by_artist__title"><h3>Mylène&nbsp;Farmer</h3></div>
             <div class=" by_artist__p">
             <p>Innamoramento</p>
             <p>À tout jamais</p>
             </div>
-        </div>
+        </div>-->
 
         <div class="by_artist__box">
             <div class="by_artist__title"><h3>Nightwish</h3></div>
@@ -148,22 +148,24 @@
             <p>Larsen </p>
             <p>J’envoie valser </p>
             <p>Zen </p>
-            <p>Hissée haut</p>
+            <!--<p>Hissée haut</p>-->
             </div>
         </div>
         </article>
 
-        <article  class="songs">
-                <div id="song"></div>
-
+        
+        <article  class="songs main2">
+            <div id="song"></div>
+            <h1 >Chansons</h1>
             <ul>
-                <li> Bachelorette <br> <span>Björk</span></li> 
+                <li>Bachelorette<br> <span>Björk</span></li> 
                 <li>Chandelier<br> <span>Sia</span></li> 
                 <li>Come back home<br> <span>Sofia Carson</span></li> 
                 <li>Creep<br> <span>Radiohead</span></li> 
                 <li>D’Allemagne<br> <span>Patricia Kaas</span></li> 
                 <li>Don't speak<br> <span>No Doubt</span></li> 
                 <li>Et bam<br> <span>Mentissa</span></li> 
+                <li>Innamoramento <br> <span>Mylène Farmer</span></li>
                 <li>I’ll never love again<br> <span>Lady Gaga</span></li> 
                 <li>L’aigle noir<br> <span>Barbara</span></li> 
                 <li>La vie en rose<br> <span>Edith Piaf</span></li> 
@@ -172,7 +174,7 @@
                 <!-- <li>My heart will go on <span>Céline dion</span></li> -->
                 <li>Nightcall<br> <span>London Grammar</span></li> 
                 <li>Popcorn salé<br> <span>Santa</span></li> 
-                <!-- <li> Pour que tu m’aimes encore<span></span></li>   -->
+                <li> Pour que tu m’aimes encore<br> <span>Céline Dion</span></li>
                 <li>Prayer<br> <span>Hayley Westenra</span></li> 
                 <li>Radioactive<br> <span>Imagine Dragons</span></li> 
                 <li>Running up that hill<br> <span>Kate Bush</span></li> 
@@ -193,20 +195,42 @@
                 <li>Zombie<br> <span>The Cranberries</span></li>
             </ul>
         </article>
-        
 
+        <article  class="duos main2">
+            <div id="duo"></div>
+            <h1>Duos</h1>
+                <ul>
+                    <li>À ma place<br><span>Zazie et AXel Bauer</span></li>
+                    <li>Creep acoustic<br><span>Radiohead</span></li>
+                    <li>I've had the time of my life<br><span>B.O. Dirty dancing</span></li>
+                    <li>Je recherche<br><span>Mauss et Charlie</span></li>
+                    <li>Les animaux fragiles<br><span>Zaz et Ycare</span></li>
+                    <li>Les mots<br><span>Mylène Farmer et Seal</span></li>
+                    <li>Les mots virtuels<br><span>Janie et Foé</span></li>
+                    <li>Regrets<br><span>Mylène Farmer et Jean-Louis Murat</span></li>
+                    <li>Shallow<br><span>Lady Gaga et Bradley Cooper</span></li>
+                    <li>The Phantom of the opera<br><span>E. Rossum et G. Butler</span></li> 
+                    <li>Tu es mon autre<br><span>Maurane et Lara Fabian</span></li>     
+                                 
+                </ul>
+                
+        </article>
+          
+        
     </div>
     
     <aside class="sidebar">
     <div class="sticky">
-        <h3>Chansons</h3>
+        <h3>Titres</h3>
             <ul class="sidebar__nav">
                 <a href="#artist"><li>Par artiste</li></a><br>
                 <a href="#song"><li>Par ordre alphabétique</li></a><br>
+                <a href="#duo"><li>Duos</li></a>
             </ul>
       
     </div> 
     </aside>
+
 </main>
     
 <footer class="footer">

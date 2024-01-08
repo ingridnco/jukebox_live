@@ -174,18 +174,26 @@ body {
   min-height: 120px;
 }
 
-#song, #artist {
+#artist, #song, #duo {
   position: relative;
   top: -200px;
 }
 
-.songs {
-  margin-top: 200px;
+.main2 {
+  display: flex;
+  width: 40vw;
+  flex-direction: column;
+  margin-left: 10vw;
 }
-.songs ul {
+
+.songs, .duos {
+  margin-top: 200px;
+  margin-bottom: 39px;
+}
+.songs ul, .duos ul {
   padding-left: 20px;
 }
-.songs ul li {
+.songs ul li, .duos ul li {
   list-style: none;
   line-height: 1.3rem;
   padding: 10px 0;

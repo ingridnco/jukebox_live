@@ -183,6 +183,9 @@
   .songs ul li {
     font-size: 1.1rem;
   }
+  .duos {
+    margin-top: 60px;
+  }
   span {
     font-size: 1rem;
   }
@@ -239,6 +242,7 @@
   }
   .sidebar__nav {
     padding: 0px;
+    padding-bottom: 10px;
     margin-left: 0px;
     margin-top: 20px;
   }
