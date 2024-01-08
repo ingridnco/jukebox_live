@@ -51,7 +51,7 @@ body {
 }
 .topbar__nav--social {
   display: flex;
-  width: 7.5rem;
+  width: 11.25rem;
   justify-content: space-around;
   align-items: center;
   line-height: 0;
