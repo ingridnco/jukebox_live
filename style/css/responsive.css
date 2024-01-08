@@ -303,5 +303,10 @@
     top: 320px;
   }
 }
+@media screen and (min-height: 1065px) {
+  .footer {
+    top: 495px;
+  }
+}
 
 /*# sourceMappingURL=responsive.css.map */
