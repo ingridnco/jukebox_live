@@ -266,7 +266,7 @@
   .sticky {
     top: 103px;
     width: 38vw;
-    margin: 0 8px 0 0;
+    margin: 0 10px 0 0;
   }
 }
 @media screen and (max-width: 440px) {
