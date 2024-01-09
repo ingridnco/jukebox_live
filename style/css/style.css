@@ -23,6 +23,7 @@ body {
   align-items: center;
   padding: 35px;
   background-color: white;
+  box-shadow: 0px 15px 20px rgba(57, 47, 95, 0.5843137255);
   position: fixed;
   z-index: 2;
   width: 100%;
