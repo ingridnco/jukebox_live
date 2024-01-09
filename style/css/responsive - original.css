@@ -13,13 +13,10 @@
   }
   .main {
     margin-top: 40px;
-    width: 55vw;
-  }
-  .songs ul, .duos ul {
-    padding-left: 10px;
+    width: 65vw;
   }
   .sidebar {
-    width: 39vw;
+    width: 40vw;
     margin-top: 206px;
   }
   .sidebar__nav {
@@ -33,7 +30,6 @@
   }
   .main {
     margin-top: 53px;
-    margin-right: 25px;
   }
   #song, #artist, #duo {
     top: -120px;
@@ -252,9 +248,9 @@
   }
   .sidebar__nav {
     padding: 0px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     margin-left: 0px;
-    margin-top: 8px;
+    margin-top: 20px;
   }
   .sidebar__nav a {
     font-size: 1.3rem;
@@ -264,8 +260,8 @@
   }
   .sticky {
     top: 100px;
-    width: 38vw;
-    margin: 0 8px 0 0;
+    width: 34vw;
+    margin: 0 auto;
   }
 }
 @media screen and (max-width: 440px) {
@@ -306,4 +302,4 @@
   }
 }
 
-/*# sourceMappingURL=responsive.css.map */
+/*# sourceMappingURL=responsive%20-%20original.css.map */
