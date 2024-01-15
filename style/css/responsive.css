@@ -4,7 +4,7 @@
     background-size: 112vw;
   }
   .footer {
-    top: 730px;
+    top: calc(580px + 150px);
   }
 }
 @media screen and (max-width: 996px) {
@@ -159,7 +159,7 @@
     top: -100px;
   }
   .footer {
-    top: 250px;
+    top: calc(100px + 150px);
   }
 }
 @media screen and (max-width: 545px) {
