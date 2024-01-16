@@ -78,6 +78,9 @@ body {
 .main {
   margin-top: 15px;
   background-color: rgb(127, 125, 215);
+  background-image: url(../../img/Sanstitre.svg);
+  background-position: -12% -3%;
+  background-repeat: repeat-x;
   width: calc(100% - 400px);
   display: flex;
   flex-direction: column;
@@ -204,6 +207,10 @@ body {
 span {
   color: #472263;
   font-size: 1.1rem;
+}
+
+.airtable-embed {
+  background-color: rgb(127, 125, 215);
 }
 
 .sticky {

@@ -3,8 +3,11 @@
     background: linear-gradient(rgba(90, 35, 240, 0.4941176471), rgba(94, 153, 217, 0.4823529412), rgba(113, 226, 183, 0.4235294118), rgb(127, 125, 215) 200px) local, center 50px no-repeat url("../../img/header.jpg") fixed;
     background-size: 112vw;
   }
+  .main {
+    background-position: 50px -5%;
+  }
   .footer {
-    top: calc(580px + 150px);
+    top: 730px;
   }
 }
 @media screen and (max-width: 996px) {
@@ -34,18 +37,22 @@
   .main {
     margin-top: 53px;
     margin-right: 25px;
-  }
-  #song, #artist, #duo {
-    top: -120px;
-  }
-  .sidebar__nav {
-    padding: 25px 0;
-  }
-  .sidebar__nav a {
-    font-size: 1.2rem;
-    line-height: 1rem;
+    background-size: 240px auto;
+    background-position: top;
   }
 }
+#song, #artist, #duo {
+  top: -120px;
+}
+
+.sidebar__nav {
+  padding: 25px 0;
+}
+.sidebar__nav a {
+  font-size: 1.2rem;
+  line-height: 1rem;
+}
+
 @media screen and (max-width: 675px) {
   .topbar__img {
     background: linear-gradient(rgba(90, 35, 240, 0.4941176471), rgba(94, 153, 217, 0.4823529412), rgba(113, 226, 183, 0.4235294118), rgb(127, 125, 215) 125px) local, center 0px no-repeat url("../../img/header.jpg") fixed;
@@ -159,7 +166,7 @@
     top: -100px;
   }
   .footer {
-    top: calc(100px + 150px);
+    top: 250px;
   }
 }
 @media screen and (max-width: 545px) {
