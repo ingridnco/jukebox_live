@@ -3,6 +3,9 @@
     background: linear-gradient(rgba(90, 35, 240, 0.4941176471), rgba(94, 153, 217, 0.4823529412), rgba(113, 226, 183, 0.4235294118), rgb(127, 125, 215) 200px) local, center 50px no-repeat url("../../img/header.jpg") fixed;
     background-size: 112vw;
   }
+  .container {
+    background-position: -11% -4%;
+  }
   .main {
     background-position: 50px -5%;
   }
@@ -33,6 +36,10 @@
   .topbar__img {
     background: linear-gradient(rgba(90, 35, 240, 0.4941176471), rgba(94, 153, 217, 0.4823529412), rgba(113, 226, 183, 0.4235294118), rgb(127, 125, 215) 140px) local, center 10px no-repeat url("../../img/header.jpg") fixed;
     background-size: 145vw;
+  }
+  .container {
+    background-size: 240px auto;
+    background-position: -15% 2%;
   }
   .main {
     margin-top: 53px;

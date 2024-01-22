@@ -73,6 +73,9 @@ body {
 
 .container {
   display: flex;
+  background-image: url(../../img/Sanstitre.svg);
+  background-position: -11% -2%;
+  background-repeat: repeat-x;
 }
 
 .main {
