@@ -1,10 +1,10 @@
 .main {
   margin-left: auto;
   margin-right: auto;
-  height: 69vh;
+  height: 72vh;
 }
 .main h1 {
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   z-index: 1;
 }
 .main p {
@@ -28,4 +28,4 @@
   }
 }
 
-/*# sourceMappingURL=articles.css.map */
+/*# sourceMappingURL=extraits.css.map */

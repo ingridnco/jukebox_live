@@ -1,0 +1,32 @@
+.main{
+    margin-left: auto;
+    margin-right: auto;
+    height: 72vh;
+    & h1{
+     margin-bottom: 60px;
+     z-index: 1;
+    }
+    & p{
+        text-align: justify;
+        margin:30px;
+    }
+}
+
+@media screen and (max-width:996px){
+    .main img{
+        width:40vw;
+    }
+}
+@media screen and (min-height:830px){
+    .footer{
+        top:336px;
+    }
+
+}
+
+@media screen and (min-height:1080px){
+    .footer{
+        top:538px;
+    }
+
+}
