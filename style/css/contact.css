@@ -1,3 +1,7 @@
+.container {
+  background-image: none;
+}
+
 .main {
   margin-top: 100px;
   margin-left: auto;
@@ -8,7 +12,7 @@
 
 p {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .main a:hover {

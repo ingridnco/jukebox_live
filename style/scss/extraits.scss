@@ -18,11 +18,33 @@
         width:40vw;
     }
 }
+
+@media screen and (max-width:910px){
+.container{
+    background-image:none;
+}
+
+}
+
 @media screen and (min-height:830px){
     .footer{
         top:336px;
     }
 
+}
+
+@media screen and (max-width:750px){
+    iframe{
+        width: 560px !important;
+        height: 317px !important;
+    }
+}
+
+@media screen and (max-width:610px){
+    iframe{
+        width:380px !important;
+        height: 214px !important;
+    }
 }
 
 @media screen and (min-height:1080px){
