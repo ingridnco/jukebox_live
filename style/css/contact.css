@@ -9,10 +9,15 @@
   height: 69vh;
   width: 100vw;
 }
+.main img:hover {
+  transform: translateY(-10px);
+  transition-duration: 1s;
+  transition-property: transform;
+}
 
 p {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .main a:hover {
