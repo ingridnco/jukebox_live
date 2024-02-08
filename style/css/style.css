@@ -206,10 +206,78 @@ body {
   padding: 10px 0;
   font-size: 1.2rem;
 }
+.songs legend, .duos legend {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.songs span, .duos span {
+  margin-left: 20px;
+}
 
 span {
   color: #472263;
   font-size: 1.1rem;
+}
+
+.btn {
+  font-size: 1.1rem;
+  margin-top: 30px;
+  margin-left: 5vw;
+  padding: 20px;
+  background: linear-gradient(#472263, rgb(127, 125, 215));
+  color: #ffffff;
+  border-radius: 20px;
+  border-style: none;
+  border-bottom: 5px solid #472263;
+}
+.btn:hover {
+  background: linear-gradient(#4a2d60, #9392d9);
+}
+.btn:active {
+  transition-duration: 0.3s;
+  border-style: none;
+  border-bottom: 1px solid #472263;
+  background: linear-gradient(#472263, rgb(127, 125, 215));
+  color: #472263;
+  transform: translate(0, 5px);
+}
+
+input[type=radio].btnradio {
+  display: none;
+}
+
+input[type=radio].btnradio + label {
+  position: relative;
+  padding-left: 1.3rem;
+}
+
+input[type=radio].btnradio + label::before,
+input[type=radio].btnradio + label::after {
+  display: block;
+  position: absolute;
+  box-sizing: border-box;
+  content: "";
+  border-radius: 1rem;
+}
+
+input[type=radio].btnradio + label::before {
+  bottom: 3px;
+  left: 0px;
+  border: 1px solid #472263;
+  background-color: #472263;
+  width: 1rem;
+  height: 1rem;
+}
+
+input[type=radio].btnradio + label::after {
+  bottom: 6px;
+  left: 3px;
+  width: calc(1rem - 0.375rem);
+  height: calc(1rem - 0.375rem);
+}
+
+input[type=radio].btnradio:checked + label::after {
+  background-color: #f0acac;
 }
 
 .airtable-embed {

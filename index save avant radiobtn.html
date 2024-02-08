@@ -179,9 +179,14 @@
 
         <article  class="songs main2">
             <div id="song"></div>
-            <h1 >Chansons</h1>            
+            <h1 >Chansons</h1>
+        <form action="" method="get">
+  
+            <legend>Choisissez un titre :</legend>
             <ul>
-                <li>Bachelorette<br><span>Björk</span></li>
+                <li><input type="radio" id="song1" name="song">
+                <label for="song1">
+                Bachelorette<br><span>  Björk</span></li></label> 
                 <li>Chandelier<br> <span>Sia</span></li> 
                 <!-- <li>Come back home<br> <span>Sofia Carson</span></li>  -->
                 <!-- <li>Creep<br> <span>Radiohead</span></li>  -->
@@ -220,7 +225,17 @@
                 <li>What’s up?<br> <span>4 Non Blondes</span></li> 
                 <!-- <li>Zombie<br> <span>The Cranberries</span></li> -->
             </ul>
-
+        
+        <input type="radio" id="song2" name="song">
+          <label for="song2">One</label><br>
+        <input type="radio" id="song3" name="song">
+          <label for="song3">Unintended</label><br>
+        <input type="radio" id="song4" name="song">
+          <label for="song4">Shallow</label><br>
+   
+    
+    <input type="button" value="Envoyer">
+  </form>
         </article>
 
         <article  class="duos main2">
@@ -252,26 +267,22 @@
         <br><br><br><br>
 
         <div data-tf-live="01HM7GCGDGGD8V4836R9NR98VD"></div><script src="//embed.typeform.com/next/embed.js"></script>    -->
-     
-       <button class="btn" data-tally-open="3EQ5NA" data-tally-emoji-text="👋" data-tally-emoji-animation="wave">Faites votre choix</button>
-
     </div>
-    
 <!-- Messenger Plugin de discussion Code -->
-<!-- <div id="fb-root"></div> -->
+<div id="fb-root"></div>
 
 <!-- Your Plugin de discussion code -->
-<!-- <div id="fb-customer-chat" class="fb-customerchat">
+<div id="fb-customer-chat" class="fb-customerchat">
 </div>
 
 <script>
   var chatbox = document.getElementById('fb-customer-chat');
   chatbox.setAttribute("page_id", "199146566617457");
   chatbox.setAttribute("attribution", "biz_inbox");
-</script> -->
+</script>
 
 <!-- Your SDK code -->
-<!-- <script>
+<script>
   window.fbAsyncInit = function() {
     FB.init({
       xfbml            : true,
@@ -286,10 +297,7 @@
     js.src = 'https://connect.facebook.net/fr_FR/sdk/xfbml.customerchat.js';
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));
-</script> -->
-
-
-
+</script>
     
     <aside class="sidebar">
     <div class="sticky">
